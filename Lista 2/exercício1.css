@@ -1,0 +1,13 @@
+*{}
+body{background-color: #31b9f7; margin:0 auto; display: block;
+}
+h1{font-family:"Cookie"; text-align: center; font-size: 60px;
+ }
+ p{ font-family: "Pinyon Script"; text-align: center; font-weight: bold; font-size: 50px;  }
+ h2{font-family:"Cookie"; text-align: center; font-size: 60px;
+ }
+ .list{ margin:0 auto; background-color:#f7e7c2; font-size: 50px; font-family:"Pinyon Script";  border-radius: 50px;width:fit-content
+; padding: 40px;display: block;  }
+ .list ul{ margin: 0 auto; text-align: center;list-style-position: inside;
+}
+ .list li{text-align: center; color: black; margin:0; }
