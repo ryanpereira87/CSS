@@ -18,5 +18,5 @@ div p{ text-align: center;font-family: sans-serif; font-weight:2px    }
     border-width: 5px}
     .title3{text-align: center; font-family:"Honk";font-weight: bold}
     .p4{text-align: center;font-family:sans-serif; font-size: 25px}
-    .list3{20px;margin:0 auto; display: block; width: fit-content;justify-content:center;background-color:#31f784;padding:20px; border-radius: 20px;
-    border-width:5px}
+    .list3{ border: 20px; margin:0 auto; display: block; width: fit-content;justify-content: center; background-color: #31f784; padding: 20px; border-radius: 20px;
+    border-width: 5px;}
