@@ -1,12 +1,23 @@
+*{ padding: 20px;
+
+}
 body{background: linear-gradient(#45cfde,#04357a); background-repeat: no-repeat; background-attachment: fixed;margin: 0px; 
     } 
-h1{color:black; text-align: center; font-family: cursive;
+h1{color:black; text-align: center; font-family: cursive; border: 1px solid rgb(179, 55, 179);border-radius: 20px;
 }
-p{background-color: white; color: red;}
+p{background-color: white; color: red;text-indent: 40px; }
 #p1{color:blue; font-family: sans-serif; font-size:15px;border-style: inset; border-width:5px; border-radius:10px; padding:5px;
      }
 #p2{color:darkgreen; font-family:Caveat; font-weight: bold ; font-style: italic; font-size: 25px ; border-style:dashed; border-width:5px; border-radius: 10px;
 padding: 5px;
  }
 #p3{color: deeppink; font-family: Pinyon Script, Monsieur La Doulaise; font-weight: bold;font-style: italic; font-size: 25px; border-style:ridge;border-width:5px; border-radius:10px; padding:5px;
+}
+
+.ronald{ background-color: wheat;
+    height: 400px;
+  background-image: url(https://images.pexels.com/photos/33201555/pexels-photo-33201555.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
 }
