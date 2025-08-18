@@ -1,0 +1,13 @@
+body{ background:linear-gradient(#e69320,#e6c120); background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+}
+h1,h2{font-family:"Chela One"; text-transform: uppercase; text-align: center;
+}
+p{font-family:"Leckerli One";
+}
+img{border: 1px;color: black; width: 200px;height: min-content; padding: 20px; 
+}
+li{font-size: 16px; font-style: oblique;justify-items:  }
+ul{ text-align: center;list-style-position: inside  ;
+}
