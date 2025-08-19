@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
 *{ padding: 20px;
 
 }
 body{background: linear-gradient(#45cfde,#04357a); background-repeat: no-repeat; background-attachment: fixed;margin: 0px; 
     } 
-h1{color:black; text-align: center; font-family: cursive; border: 1px solid rgb(179, 55, 179);border-radius: 20px;
+h1{color:black; text-align: center; font-family: "DM Serif Text", serif; border: 1px solid rgb(179, 55, 179);border-radius: 20px;
 }
 p{background-color: white; color: red;text-indent: 40px; }
 #p1{color:blue; font-family: sans-serif; font-size:15px;border-style: inset; border-width:5px; border-radius:10px; padding:5px;
@@ -15,9 +16,21 @@ padding: 5px;
 }
 
 .ronald{ background-color: wheat;
-    height: 400px;
+    height: 300px;
   background-image: url(https://images.pexels.com/photos/33201555/pexels-photo-33201555.jpeg);
 background-size: cover;
 background-repeat: no-repeat;
 background-position: bottom;
+}
+.ryan{ 
+
+}
+a{text-decoration: none; height: 30px; border: 1px solid black; border-radius: 5px;
+margin: 10px; background-color: yellow; }
+a.b1:hover{background-color: aqua; }  
+.fone{ background: transparent; 
+}
+.fone a{ background: transparent;
+font-size: 40px; border: none; position: fixed;
+bottom: 10px; right: 0px;
 }
