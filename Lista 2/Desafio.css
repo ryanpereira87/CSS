@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{ margin: 0 auto;}
+.head{ background: wheat; padding: 20px; text-align: center; margin-bottom: 10px;  font-family: "Sigmar", sans-serif;letter-spacing: 1px;text-transform: uppercase; color: black; border: 1px solid; border-radius: 30px;
+width: fit-content; }
+p{ text-align: center;margin-bottom: 30px;  font-family: "Inter", sans-serif; margin-right: 10px;margin-top: 30px; }
+img{ height: 400px; margin-bottom: 10px; display: block;  }
+
+em{ text-align: center; margin-bottom: 20px; display: block;}
+body{ background:#1E3A5F; color: #e0e0e0;}
+h2{ text-align: center; margin-bottom: 10px; color: white;}
+ul{margin-bottom: 20px; margin-top: 20px; }
+li{ padding-bottom: 10px;}
+.final{ height: 110px; background: wheat; color: black; border: 1px solid ;border-radius: 20px; text-align: center; margin-top: 10px;padding: 20px; }
+.final a{ text-decoration: none; color: blue; }
+a:hover{ color: #d67eff;}

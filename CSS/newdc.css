@@ -1,36 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
-*{ padding: 20px;
+*{ margin: 0 auto; box-sizing: border-box;
 
 }
-body{background: linear-gradient(#45cfde,#04357a); background-repeat: no-repeat; background-attachment: fixed;margin: 0px; 
-    } 
-h1{color:black; text-align: center; font-family: "DM Serif Text", serif; border: 1px solid rgb(179, 55, 179);border-radius: 20px;
+ul{ text-decoration: none; background: burlywood;list-style-type: none;padding: 0 ;
+overflow: hidden;
 }
-p{background-color: white; color: red;text-indent: 40px; }
-#p1{color:blue; font-family: sans-serif; font-size:15px;border-style: inset; border-width:5px; border-radius:10px; padding:5px;
-     }
-#p2{color:darkgreen; font-family:Caveat; font-weight: bold ; font-style: italic; font-size: 25px ; border-style:dashed; border-width:5px; border-radius: 10px;
-padding: 5px;
- }
-#p3{color: deeppink; font-family: Pinyon Script, Monsieur La Doulaise; font-weight: bold;font-style: italic; font-size: 25px; border-style:ridge;border-width:5px; border-radius:10px; padding:5px;
-}
+li{ float: left;
 
-.ronald{ background-color: wheat;
+}
+li a, .dropbtn{ display: inline-block;color: white;text-decoration: none;padding: 14px 16px;
+  
+
+}
+li a:hover , .dropdown:hover .dropbtn{ background: crimson;}
+li .dropdown{ display: inline-block;}
+.dropdown-content{ position: absolute;background: aquamarine; width:150px ;  
+}
+.dropdown-content a {color: black; }
+h1{ text-align: center; margin-bottom: 20px;margin-top: 20px;text-shadow: 2px 2px 5px rgb(193, 179, 245);
+
+}
+.caixa{width: 40%;
     height: 300px;
-  background-image: url(https://images.pexels.com/photos/33201555/pexels-photo-33201555.jpeg);
-background-size: cover;
-background-repeat: no-repeat;
-background-position: bottom;
+    background-color: white; 
+     box-shadow: 0 4px 8px ; margin-top: 20px;
 }
-.ryan{ 
-
-}
-a{text-decoration: none; height: 30px; border: 1px solid black; border-radius: 5px;
-margin: 10px; background-color: yellow; }
-a.b1:hover{background-color: aqua; }  
-.fone{ background: transparent; 
-}
-.fone a{ background: transparent;
-font-size: 40px; border: none; position: fixed;
-bottom: 10px; right: 0px;
+.flex-father{ background: aquamarine;display: flex;flex-flow: row wrap; 
+    height: 500px;align-content: flex-start; }
+.flex-father div{ background: violet; border: 1px solid black;padding: 20px; 
+    text-align: center;  flex-grow: 2;
 }

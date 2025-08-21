@@ -1,0 +1,18 @@
+body{ margin: 0;}
+.header{ background: wheat;
+    padding: 80px;
+    text-align: center;
+}
+.navbar{ display: flex;justify-content: center;background: black;
+
+}
+.navbar a{ text-decoration: none; color: white; padding: 14px 20px;text-align: center;
+ }
+ .navbar a:hover{ background: goldenrod; font-weight: bold;
+ }
+ @media screen and (max-width:700px){ .navbar{ flex-direction: column;}
+ }
+ .body{ display: flex; flex-flow: row wrap;}
+ .card{ flex-grow: 1;background: aquamarine;height: 100px; margin: 1%;
+
+ }
