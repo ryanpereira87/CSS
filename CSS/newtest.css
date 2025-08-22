@@ -1,18 +1,26 @@
-body{ margin: 0;}
-.header{ background: wheat;
-    padding: 80px;
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+*{ box-sizing: border-box;}
+body{ margin: 0;   font-family: "Libertinus Serif", serif;;}
+.navbar{ height: 100px; background: rgb(255, 255, 255); display: flex;
+ justify-content: center;align-items: center;   
+flex-flow: row wrap; }
+.head{flex:20%; border: 1px solid rgb(255, 255, 255);text-align: center;  font-family: "Galada", cursive;color: rgb(26, 15, 179); font-size: 28px;margin-left: 10%;
 }
-.navbar{ display: flex;justify-content: center;background: black;
+.menu{flex:70%; border: 1px solid rgb(255, 255, 255);text-align: right; padding: 20px;margin-bottom:50px;}
+.head h1{margin-top: -9px; padding: 20px;}
+.menu a{ text-decoration: none;color:rgb(26, 15, 179);font-size: 20px; padding: 20px 16px}
+.menu a:hover{color: rgb(199, 123, 182); border-top: 4px solid rgb(26, 15, 179);
 
 }
-.navbar a{ text-decoration: none; color: white; padding: 14px 20px;text-align: center;
- }
- .navbar a:hover{ background: goldenrod; font-weight: bold;
- }
- @media screen and (max-width:700px){ .navbar{ flex-direction: column;}
- }
- .body{ display: flex; flex-flow: row wrap;}
- .card{ flex-grow: 1;background: aquamarine;height: 100px; margin: 1%;
-
- }
+#botao{background: rgb(26,15,179); color: white; 
+    padding: 10px 15px; border-radius: 10px;margin-right: 10%; margin-left: 5%;}
+    #botao:hover{border-top: 0; background-color: rgb(199, 123, 182); border: none;}
+    header{ display: flex;height: 600px; justify-content: center;align-items: center;
+        flex-flow: row wrap;}
+        .headline{flex:40%;margin-left: 10%;}
+            .imgheadline{flex:40%; margin-right: 10%; text-align: center;}  
+             .imgheadline img{max-width:90%;padding: 20px; margin-top: 15%;height: 500px; margin-bottom: 20%;}
+            .headline h2{font-weight: 900; font-size: 20px; color:rgb(26, 15, 179);padding: 0; margin: 0;}
+            .headline p{ color: gray; text-align: left;}
+            .contact{background-color: rgb(199, 123, 182); color: white; text-decoration: none; text-align: center;justify-content: center;display:inline-block ;padding: 20px;text-transform: uppercase;border-radius: 5px;}
